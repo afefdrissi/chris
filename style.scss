@@ -47,12 +47,25 @@ footer{
         display: flex;
         justify-content: flex-start;
         margin-bottom: 26px;
+        img{
+            margin-right: 10px;
+        }
         >div{
             margin: 10px;
+            .pos{
+                font-size: 11pt;
+                color: #00d7e7;
+            }
+            .name{
+                font-size: 14pt;
+                font-weight: bold;  
+            }
+
         }
     }
 
 }
+
 #awards{
     background: url('Links/HDBG.png');
     h2{
@@ -99,18 +112,6 @@ h3{
     font-size: 16pt;
     margin-top: 0;
     color: #2a245c;
-}
-h4{
-    
-    font-size: 14pt;
-    margin: 8px;
-    
-}
-h6{
-    font-size: 11pt;
-    font-weight: 100;
-color: #00d7e7;
-    margin: 8px;
 }
 h5{
     font-size: 12pt;
