@@ -1,7 +1,7 @@
 var recsInfo=[
        
    {
-    pic:"woody.jpg",
+    pic:"Woody.jpg",
     name:"Woody Woodward",
     pos:"CEO, M.O.N.E.Y. Matrix",
     quote:"When you are looking for a creative genius look no further than Chris. I have worked with him off and on for over 15 yrs now. He has helped me land some of my biggest clients. If you ever get the chance to work with him you will not be disappointed."
