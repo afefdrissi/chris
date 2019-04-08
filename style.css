@@ -68,6 +68,8 @@ footer {
 
 .testimonial .testi img {
   margin-right: 10px;
+  height: 100px;
+  width: 100px;
 }
 
 .testimonial .testi > div {
