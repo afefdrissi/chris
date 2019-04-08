@@ -129,6 +129,7 @@ h2 {
 h3 {
   font-size: 16pt;
   margin-top: 0;
+  color: #2a245c;
 }
 
 h4 {
@@ -139,14 +140,14 @@ h4 {
 h6 {
   font-size: 11pt;
   font-weight: 100;
-  color: #d4c1a2;
+  color: #00d7e7;
   margin: 8px;
 }
 
 h5 {
   font-size: 12pt;
   margin: 0;
-  color: #a3947f;
+  color: #00d7e7;
 }
 
 #main-nav {
@@ -157,17 +158,34 @@ h5 {
   width: 100%;
 }
 
-#main-nav nav {
+#main-nav .nav {
   margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-left: 358px;
   width: 560px;
 }
 
 #main-nav a {
-  padding: 12px;
-  line-height: 2;
+  padding: 0 12px;
+  line-height: 2.5;
+  margin: 4px;
   text-decoration: none;
-  color: #d4c1a2;
+  color: #00d7e7;
+  border-radius: 4px;
+  border: 1pt solid #0e0a2600;
+}
+
+#main-nav a:hover {
+  border-color: #00d7e7;
+}
+
+#main-nav a.activeLink {
+  color: #0e0a26;
+  background: #00d7e7;
 }
 
 #card {
@@ -193,23 +211,24 @@ h5 {
 }
 
 #card #socials img {
-  margin-right: 10px;
-  cursor: pointer;
+  border-radius: 6px;
+  margin-right: 8px;
 }
 
 #card #socials img:hover {
   opacity: .6;
 }
 
-.re {
+h1 {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   padding: 16px;
   padding-left: 26px;
+  margin: 0;
   color: #fff;
-  background: #2196f3;
+  background: #0e0a26;
   font-size: 16pt;
   font-weight: bold;
 }
