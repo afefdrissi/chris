@@ -156,18 +156,18 @@ h2 {
   z-index: 100;
   position: fixed;
   background: #0e0a26;
-  padding: 24px;
+  padding-bottom: 10px;
   width: 100%;
 }
 
 #main-nav .nav {
-  margin-top: 80px;
+  margin-top: 72px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-left: 358px;
+  margin-left: 36vw;
   width: 560px;
 }
 
