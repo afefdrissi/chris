@@ -268,4 +268,8 @@ section .content {
   padding: 40px;
   padding-top: 108px;
 }
+
+.h {
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */
