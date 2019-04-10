@@ -25,6 +25,10 @@
   width: 100%;
 }
 
+#modal > .exp .expDate {
+  margin-top: 16px;
+}
+
 #modal > .exp .expTitle {
   position: absolute;
   top: 0;
@@ -313,6 +317,8 @@ h1 {
 }
 
 #projects2 .content .exp {
+  -webkit-transition: all 0.2s cubic-bezier(0, 0, 0.07, 1) 0s;
+  transition: all 0.2s cubic-bezier(0, 0, 0.07, 1) 0s;
   cursor: pointer;
   border: 1pt solid grey;
   padding: 26px;
