@@ -1,3 +1,26 @@
+$breakpoints: (
+    "phone":        400px,
+    "phone-wide":   480px,
+    "phablet":      560px,
+    "tablet-small": 640px,
+    "tablet":       768px,
+    "tablet-wide":  1086px,
+    "desktop":      1248px,
+    "desktop-wide": 1440px,
+    "1920": 1920px
+);
+//@include mq('tablet-wide') {}
+@mixin mq($width, $type: min) {
+    @if map_has_key($breakpoints, $width) {
+        $width: map_get($breakpoints, $width);
+        @if $type == max {
+            $width: $width - 1px;
+        }
+        @media only screen and (#{$type}-width: $width) {
+            @content;
+        }
+    }
+}
 
 body{
     margin: 0;
@@ -185,6 +208,55 @@ color: #fff;
 background:#0e0a26;
 font-size: 16pt;
 font-weight: bold;
+}
+#projects2{
+   
+    padding: 40px;
+    .content{
+        padding: 20px; padding-top: 90px;
+        margin: 0;
+        width:100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-start;
+        
+        .exp{
+            cursor: pointer;
+            &:hover{
+                background: #e8e8e8;
+                padding: 16px;
+    
+    border-color: #000;
+                
+            }
+ .expDate{
+     margin-bottom:12px; 
+ }
+ .expTitle{
+    margin-top:12px; 
+}
+    border: 1pt solid grey;
+    padding: 26px;
+    margin: 6px;
+
+           
+            @include mq('1920',max) {
+                 width: 32%; 
+            
+            }
+            @include mq('tablet-wide',max) {
+                width: 48%;
+            
+            }
+            @include mq('tablet-small',max) {
+                width: 100%;
+            
+            }
+
+           
+        }
+    }
 }
 section{
     width: 100%;

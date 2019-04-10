@@ -235,6 +235,66 @@ h1 {
   font-weight: bold;
 }
 
+#projects2 {
+  padding: 40px;
+}
+
+#projects2 .content {
+  padding: 20px;
+  padding-top: 90px;
+  margin: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+
+#projects2 .content .exp {
+  cursor: pointer;
+  border: 1pt solid grey;
+  padding: 26px;
+  margin: 6px;
+}
+
+#projects2 .content .exp:hover {
+  background: #e8e8e8;
+  padding: 16px;
+  border-color: #000;
+}
+
+#projects2 .content .exp .expDate {
+  margin-bottom: 12px;
+}
+
+#projects2 .content .exp .expTitle {
+  margin-top: 12px;
+}
+
+@media only screen and (max-width: 1919px) {
+  #projects2 .content .exp {
+    width: 32%;
+  }
+}
+
+@media only screen and (max-width: 1085px) {
+  #projects2 .content .exp {
+    width: 48%;
+  }
+}
+
+@media only screen and (max-width: 639px) {
+  #projects2 .content .exp {
+    width: 100%;
+  }
+}
+
 section {
   width: 100%;
   padding-top: 262px;

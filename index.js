@@ -1,3 +1,7 @@
+[...document.querySelectorAll("#projects2 p")].forEach(x=>{
+    x.remove();
+});
+
 [...document.querySelectorAll("#main-nav .nav>a")].forEach(x=>{
     x.addEventListener("click",currentLink);
 });
@@ -26,3 +30,6 @@ function recs(){
     
 }
 recs();
+[...document.querySelectorAll("#projects2 p")].forEach(x=>{
+    x.childNode.remove;
+});
