@@ -147,7 +147,14 @@ h2{
     background: #0e0a26;
     padding-bottom: 10px;
     width: 100%;
-
+    &.second{
+        padding:0px;
+        .nav{
+            display: flex;flex-wrap: wrap;
+            margin: 12px;width: auto;
+        
+        }
+    }
 .nav{
     margin-top:72px ;display: flex;flex-wrap: wrap;
     margin-left: 36vw;width: 560px;
@@ -210,8 +217,7 @@ font-size: 16pt;
 font-weight: bold;
 }
 #projects2{
-   
-    padding: 40px;
+    padding: 40px;padding-top: 98px;
     .content{
         padding: 20px; padding-top: 90px;
         margin: 0;
@@ -226,8 +232,7 @@ font-weight: bold;
             &:hover{
                 background: #e8e8e8;
                 padding: 16px;
-    
-    border-color: #000;
+                border-color: #000;
                 
             }
  .expDate{
@@ -249,7 +254,7 @@ font-weight: bold;
                 width: 48%;
             
             }
-            @include mq('tablet-small',max) {
+            @include mq('tablet',max) {
                 width: 100%;
             
             }

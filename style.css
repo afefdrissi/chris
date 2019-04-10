@@ -160,6 +160,20 @@ h2 {
   width: 100%;
 }
 
+#main-nav.second {
+  padding: 0px;
+}
+
+#main-nav.second .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 12px;
+  width: auto;
+}
+
 #main-nav .nav {
   margin-top: 72px;
   display: -webkit-box;
@@ -237,6 +251,7 @@ h1 {
 
 #projects2 {
   padding: 40px;
+  padding-top: 98px;
 }
 
 #projects2 .content {
@@ -289,7 +304,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 639px) {
+@media only screen and (max-width: 767px) {
   #projects2 .content .exp {
     width: 100%;
   }
