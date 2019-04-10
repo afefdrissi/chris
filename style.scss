@@ -149,7 +149,7 @@ h2{
     width: 100%;
     &.second{
         padding:0px;
-        .nav{
+        .nav{justify-content: flex-end;
             display: flex;flex-wrap: wrap;
             margin: 12px;width: auto;
         
