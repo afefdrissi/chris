@@ -1,3 +1,41 @@
+#modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #1b1b1bad;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  overflow: auto;
+}
+
+#modal > .exp {
+  position: absolute;
+  width: 70%;
+  top: 5vh;
+  margin-left: 15%;
+  padding: 97px 67px;
+  background: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+#modal > .exp img {
+  width: 100%;
+}
+
+#modal > .exp .expTitle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 16px;
+  color: #0e0a26;
+  text-align: center;
+  background: #00d7e7;
+}
+
 body {
   margin: 0;
   font-family: sans-serif;

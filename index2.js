@@ -1,7 +1,14 @@
 [...document.querySelectorAll("#projects2 p")].forEach(x=>{
     x.remove();
 });
-
+[...document.querySelectorAll("#projects2 .exp")].forEach(x=>{
+    x.addEventListener("click",function (){
+        document.getElementById("modal").style.display="block"
+    });
+});
+document.getElementById("modal").addEventListener("click",function(){
+this.style.display="none"
+});
 [...document.querySelectorAll("#main-nav .nav>a")].forEach(x=>{
     x.addEventListener("click",currentLink);
 });
