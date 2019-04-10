@@ -21,7 +21,12 @@ $breakpoints: (
         }
     }
 }
-
+.brand{
+    font-size: 24pt;
+    padding: 10px;
+    padding-left: 20px;
+    color: white;
+}
 #modal{
     display: none;
     position: fixed;top:0;left:0;
@@ -180,6 +185,7 @@ h2{
     width: 100%;
     &.second{
         padding:0px;
+        display: flex;justify-content: space-between;
         .nav{justify-content: flex-end;
             display: flex;flex-wrap: wrap;
             margin: 12px;width: auto;

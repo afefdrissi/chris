@@ -1,3 +1,10 @@
+.brand {
+  font-size: 24pt;
+  padding: 10px;
+  padding-left: 20px;
+  color: white;
+}
+
 #modal {
   display: none;
   position: fixed;
@@ -204,6 +211,12 @@ h2 {
 
 #main-nav.second {
   padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 #main-nav.second .nav {
